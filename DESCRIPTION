@@ -1,0 +1,17 @@
+Package: randsp
+Type: Package
+Title: Random Species Scientific Name Selection
+Version: 0.1.0
+Author: c(person("L. Mae", "Lacey", role = c("aut", "cre"), 
+        email = "mlacey@defenders.org"))
+Maintainer: L. Mae Lacey <mlacey@defenders.org>
+Description: This package prompts the user to input a number (n), which 
+        will then return n randomly selected scientific names from a list
+        of endangered and threatened species obtained from the Code of Federal
+        Regulations (CFR) and the US Fish and Wildlife Service's Environmental 
+        Conservation Online System (ECOS).
+License: BSD_2_clause
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
+RoxygenNote: 6.1.0
